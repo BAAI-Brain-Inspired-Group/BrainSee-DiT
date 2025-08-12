@@ -8,13 +8,20 @@ We animate static images through translation and rotation transformations, apply
 
 
 ## Inference(Style Transfer)
+
 ### Sketch to natural image
+prepare image to transfer
+run bash style_sketch.sh
+output image is under ./results/001-mask-0.94-60000-8-myDiT-XL-2/results/6930000/
 Sketch image
 ![sketch image](./readme_img/img_sketch.png)
 Transfered image
 ![sketch_4](./readme_img/4_1200000_0_6_sketch.png)
 
 ### Ghibli-style to natural image
+prepare image to transfer
+run bash style_jibuli.sh
+output image is under ./results/001-mask-0.94-60000-8-myDiT-XL-2/results/6930000/
 Ghibli-style image
 ![ghibli image](./readme_img/img_jibuli.png)
 Transfered image
