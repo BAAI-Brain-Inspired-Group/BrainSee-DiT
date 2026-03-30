@@ -20,6 +20,8 @@ ddp training
 ```
 sh train_ddp.sh
 ```
+
+### checkpoints
  ckpt:
  https://huggingface.co/Wistons/BrainSee-DiT
 
